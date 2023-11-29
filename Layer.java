@@ -1,4 +1,3 @@
-package se.kth.ag2411.mapalgebra;
 
 import java.io.FileReader;
 import java.io.BufferedReader;
