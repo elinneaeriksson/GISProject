@@ -1,11 +1,11 @@
-// note: This is copy pasted Ex02, to have something to work with
+// note: This is copypasted Ex02, to have something to work with
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import javax.swing.JFrame;
 ////////////////////////////////////////////////////////////////////////////////
 // THE INPUT ARGUMENTS: name, path, size, highlighted value SEPARATED BY COMMA
 ////////////////////////////////////////////////////////////////////////////////
-public class Ex02 {
+public class Main {
     public static void main(String[] args) {
         if (args.length == 4) {
 
@@ -38,7 +38,8 @@ public class Ex02 {
             appFrame2.add(myMapPanel2);
 
             // set frame size
-            Dimension dimension = new Dimension(scale * layer.getnCols(),scale * layer.getnRows());
+            //Dimension dimension = new Dimension(scale * layer.getnCols(),scale * layer.getnRows());
+            Dimension dimension = new Dimension(scale * 180,scale * 180);
             appFrame1.setSize(dimension);
             appFrame2.setSize(dimension);
 

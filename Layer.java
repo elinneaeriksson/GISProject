@@ -241,7 +241,7 @@ public class Layer {
                     if (zone_min.get(zone) > this.values[i*nCols+j]){
                         zone_min.put(zone, this.values[i*nCols+j]);
                     }
-                    else{
+                    else {
                         continue;
                     }
                 }
